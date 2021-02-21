@@ -5,7 +5,7 @@ to generate predictions on test set, saves as results.csv. SHAP values are extra
 
 
 
-The focus of this directory is performing experiments on different classifiers to choose from for Churn Prediction problem.
+The focus of this directory is performing experiments on different classifiers to choose for Churn Prediction problem,
 There are additional work might be done for predicting outliers, Bayesian Modeling, feature imputation, imbalanced sampling.
 
 
@@ -16,6 +16,12 @@ First make sure to install requirements.txt  by typing:
 pip install requirements.txt 
 ```
 
+Make sure to install orca from npm to allow static images view from plotly:
+
+```
+npm install -g electron@1.8.4 orca
+
+```
 
 view all experiments results, visualizations and feature importance in:
 ```
